@@ -1,0 +1,9 @@
+applications:
+- name: reservation-service-x
+  buildpack: java_buildpack
+  path: build/libs/reservation-service-0.0.1-SNAPSHOT.jar
+  instances: 1
+  timeout: 180
+  memory: 512M
+  env:
+    JBP_CONFIG_OPENJDK: 'version: 1.8.+'
