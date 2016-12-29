@@ -24,7 +24,6 @@ import javax.persistence.Id;
 import java.util.LongSummaryStatistics;
 import java.util.stream.Stream;
 
-@EnableDiscoveryClient
 @SpringBootApplication
 public class ReservationServiceApplication {
 
